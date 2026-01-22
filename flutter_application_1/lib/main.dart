@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       // home: Text("Hello"),
       //Task 2
       home: Scaffold(appBar: AppBar(backgroundColor: Colors.pink,),
-      body: Container(color: Colors.purple, child: Text("jjjjj")),)
+      body: Container(height: 100, width: 100, color: Colors.purple, child: Text("FLUTTER FLUTTER", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,  color: Colors.cyanAccent))),)
     );
   }
 }
